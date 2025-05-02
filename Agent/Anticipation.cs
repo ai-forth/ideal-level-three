@@ -8,7 +8,6 @@ namespace ideal.agent
     /// </summary>
     public class Anticipation : IComparable<Anticipation>
     {
-        private Experiment _experience;
         private Interaction _interaction;
 
         /// <summary>
@@ -43,14 +42,6 @@ namespace ideal.agent
 
             Anticipation other = anticipation;
             return other.GetInteraction().GetValence().CompareTo(_interaction.GetValence());
-        }
-        /// <summary>
-        /// Gets the experience associated with the anticipation.
-        /// </summary>
-        /// <returns>The experience.</returns>
-        public Experiment GetExperience()
-        {
-            return _experience;
         }
         /// <summary>
         /// Returns a string representation of the anticipation.
