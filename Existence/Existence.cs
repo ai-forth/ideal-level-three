@@ -124,8 +124,6 @@ namespace ideal
                     SetEnactedInteraction(typedEnactedInteraction);
 
                     return GetMood().ToString();
-                default:
-                    return "0";
             }
         }
 
