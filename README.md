@@ -12,3 +12,5 @@ The algorithm will push messages to the console on its learning and acquisition 
 ### Patterns
 
 * [here](https://www.etsy.com/listing/1313601802/uncut-vintage-craft-sewing-pattern)
+
+![group-pin](/images/group-pin.png)
